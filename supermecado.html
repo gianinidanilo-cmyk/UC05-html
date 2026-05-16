@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermecado JS</title>
+</head>
+<body>
+    <h1> Supermercado JS</h1>
+
+    <form>
+        <p> Descrição do produto:
+        <input type="text" id="inProduto" required>
+        </p>
+
+        <p> Valor do produto R$: 
+            <input type="number" step="0.01" id="inPreco" min="0" required>
+        </p>
+
+        <input type="submit" value ="Ver promoção">
+
+    </form>
+
+    <h3 id="outPromocao"></h3>
+    <h3 id="outPrecoTerceiro"></h3>
+
+    <script src="./js/supermecado.js"></script>
+</body>
+</html>
